@@ -37,11 +37,11 @@ Take a look at how our project turned out.
 (screenshot here)
 ***
 
-## :scroll: Instalation
+## :scroll: Installation
 
 Brief installation guide
 
-## Instalation requirements
+## Installation requirements
 
 Installation requirements
 
