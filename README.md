@@ -29,7 +29,13 @@
 Take a look at how our project turned out.
 ***
 
-(screenshots here)
+<p align="center"></p>
+(screenshot here)
+***
+
+<p align="center"></p>
+(screenshot here)
+***
 
 ## :scroll: Instalation
 
