@@ -54,7 +54,7 @@ Installation requirements
 ## Our team
 
 >[!NOTE]
->
+>Please understand that our team is learning, not everything will look or be perfect. Thank you for the attention.
 ***
 
 - Diego Santamaria: https://github.com/DinGo21
