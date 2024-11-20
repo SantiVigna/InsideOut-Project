@@ -39,6 +39,9 @@ Take a look at how our project turned out.
 ### First step 
 
 **Clone** our repository at **Visual Studio**.
+```bash
+https://github.com/SantiVigna/InsideOut-Project.git
+```
 
 > [!NOTE]
 > To install **Composer** whe should introduce in **Git Bash** this **command**:
