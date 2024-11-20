@@ -5,7 +5,7 @@
 >To learn how to install and also to know how we did this project, it's very important that you read every part of this readme. Thank you for your patience and have a good read.
 ***
 
-## Project description
+## :bulb: Project description
 To keep track of our day-to-day life at an emotional level, we are going to create a diary in Laravel where we can insert what we are feeling every day.
 ***
 
@@ -46,7 +46,7 @@ Brief installation guide
 Installation requirements
 
 
-## Tests
+## :white_check_mark: Tests
 
 (screenshot of the tests)
 ***
