@@ -44,12 +44,14 @@ https://github.com/SantiVigna/InsideOut-Project.git
 ```
 
 > [!NOTE]
-> To install **Composer** whe should introduce in **Git Bash** this **command**:
+> To install **Composer** we must introduce this **command** at **Git Bash**:
 
 ```php
  $ composer install
  ```
+
 (here insert a screenshoot proving the command works)
+***
 
 ### Second step
 
@@ -61,19 +63,20 @@ Open the **XAMPP** control panel and follow these instructions:
 
 ![385719024-c058f39b-c325-4635-bad7-a209cd9e4541](https://github.com/user-attachments/assets/fb2e4e17-42a4-4122-aea8-e4a4ee393929)
 
-Once we opened it, we should create a database that we are naming *insert name od the database*
+Once we opened it, we should create a database that we are naming *insert name of the database*
 
 (screenshot guide for creating the database)
 
 ## Installation requirements
 
 > [!IMPORTANT]
-> Tener correctamente instalados **Composer** y **XAMPP** para que funcione la base de datos.
+>Please make sure that you have Composer and XAMPP correctly installed for the database to work.
+> If you can't install xampp, search for another local server that supports **PHP** and **MYSQL**.
 
 ## :white_check_mark: Tests
 
 > [!IMPORTANT]
-> Is important to test the project to check if it works correctly using the command in the terminal:
+> It's important to test the project so we can check if it works correctly and to do that use this command in the terminal:
 
 ```php
  $ ./vendor/bin/phpuit tests
