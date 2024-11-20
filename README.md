@@ -9,7 +9,7 @@
 To keep track of our day-to-day life at an emotional level, we are going to create a diary in Laravel where we can insert what we are feeling every day.
 ***
 
-## Requirements we need to achieve in this project
+## Requirements we need to achieve in this project:
 
 - We must view our entire journal on the screen (blade)
 
@@ -39,16 +39,41 @@ Take a look at how our project turned out.
 
 ## :scroll: Installation
 
-Brief installation guide
+### First step 
+
+**Clone** our repository at **Visual Studio**.
+
+> [!NOTE]
+> To install **Composer** whe should introduce in **Git Bash** this **command**:
+
+```php
+ $ composer install
+ ```
+(here insert a screenshoot proving the command works)
+
+### Second step
+
+Open the **XAMPP** control panel and follow these instructions: 
+
+- Run **Apache's** and **MySQL** modules by pressing **Start**.
+
+- Open **Apache's** Admin**.
+
+(here insert a screenshoot)
+
+Once we opened it, we should create a database that we are naming *insert name od the database*
+
+(screenshot guide for creating the database)
 
 ## Installation requirements
 
-Installation requirements
-
+> [!IMPORTANT]
+> Tener correctamente instalados **Composer** y **XAMPP** para que funcione la base de datos.
 
 ## :white_check_mark: Tests
 
 (screenshot of the tests)
+
 ***
 
 ## Our team
@@ -73,6 +98,8 @@ Installation requirements
 <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='mysql' src='https://img.shields.io/badge/mysql-100000?style=for-the-badge&logo=mysql&logoColor=white&labelColor=1C662F&color=1C662F'/></a>
 <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='laravel' src='https://img.shields.io/badge/laravel-100000?style=for-the-badge&logo=laravel&logoColor=FFFFFF&labelColor=660A0A&color=660A0A'/></a>
 ***
+
+## Project documentation
 
 ## Thanks for reading!
 
