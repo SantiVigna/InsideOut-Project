@@ -11,17 +11,14 @@ To keep track of our day-to-day life at an emotional level, we are going to crea
 
 ## Requirements we need to achieve in this project:
 
-- We must view our entire journal on the screen (blade)
+- We must **view** our **entire journal** on the screen **(blade)**
 
-- We must view our entire Journal through Endpoints
+- We must **view** our **entire Journal** on the screen through **Endpoints** *(blade)*.
 
-- We must be able to delete an entry through Endpoints
+- We must be able to **insert**,**modify** and **delete** an entry through **Endpoints**.
 
-- We have to be able to insert an entry through Endpoints
+- The **date** and *time* of the entry creation should be **automatically added**.
 
-- We must be able to modify an entry through Endpoints
-
-- The date and time of the entry creation should be automatically added
 ***
 
 ## :eye_speech_bubble: Project overview
