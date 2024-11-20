@@ -64,7 +64,7 @@ Installation requirements
 - Santino Vigna: https://github.com/SantiVigna
 ***
 
-## Languages we used in this project
+## Languages and tools we used in this project
 
 <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='PHP' src='https://img.shields.io/badge/PHP-100000?style=for-the-badge&logo=PHP&logoColor=white&labelColor=896696&color=896696'/></a>
 <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='css3' src='https://img.shields.io/badge/css-100000?style=for-the-badge&logo=css3&logoColor=white&labelColor=079FB0&color=079FB0'/></a>
