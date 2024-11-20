@@ -57,7 +57,7 @@ Open the **XAMPP** control panel and follow these instructions:
 
 - Run **Apache's** and **MySQL** modules by pressing **Start**.
 
-- Open **Apache's** Admin**.
+- Open **Apache's** **Admin**.
 
 (here insert a screenshoot)
 
@@ -72,6 +72,12 @@ Once we opened it, we should create a database that we are naming *insert name o
 
 ## :white_check_mark: Tests
 
+> [!IMPORTANT]
+> Is important to test the project to check if it works correctly using the command in the terminal:
+
+```php
+ $ ./vendor/bin/phpuit tests
+ ```
 (screenshot of the tests)
 
 ***
