@@ -17,10 +17,10 @@ class JournalController extends Controller
     /**
      * Show the form for creating a new resource.
      */
-    public function create()
-    {
-        //
-    }
+    // public function create()
+    // {
+    //     //
+    // }
 
     /**
      * Store a newly created resource in storage.
@@ -28,6 +28,12 @@ class JournalController extends Controller
     public function store(Request $request)
     {
         //
+        $journal = Journal::create([
+            'entry' => $request->entry,
+            'emotion' => $request->emotion
+        ]);
+        $journal->save();
+        return response()->json($journal, 200);
     }
 
     /**
@@ -36,22 +42,31 @@ class JournalController extends Controller
     public function show(string $id)
     {
         //
+        $journal = Journal::find($id);
+        return response()->json($journal, 200);
     }
 
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(string $id)
-    {
-        //
-    }
-
+    // public function edit(string $id)
+    // {
+    //     //
+    // }
+    
     /**
      * Update the specified resource in storage.
      */
     public function update(Request $request, string $id)
     {
         //
+        $journal = Journal::find($id);
+        $journal->update([
+            'entry' => $request->entry,
+            'emotion' => $request->emotion
+        ]);
+        $journal->save();
+        return response()->json($journal, 200);
     }
 
     /**
@@ -60,5 +75,7 @@ class JournalController extends Controller
     public function destroy(string $id)
     {
         //
+        $journal = Journal::find($id);
+        $journal->delete();
     }
 }
