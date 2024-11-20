@@ -8,9 +8,6 @@ use App\Http\Controllers\Controller;
 
 class JournalController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
     public function index()
     {
         $journals = Journal::all();
