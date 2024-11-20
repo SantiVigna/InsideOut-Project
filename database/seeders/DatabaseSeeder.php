@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\Journal;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -15,9 +16,13 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
+        Journal::factory()->create([
+            'entry' => "Today is my Birthday!",
+            'emotion' => "img/emotions/happiness.jpg"
+        ]);
+        Journal::factory()->create([
+            'entry' => "I feel really bored these days...",
+            'emotion' => "img/emotions/boredom.jpg"
         ]);
     }
 }
