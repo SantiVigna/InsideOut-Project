@@ -76,10 +76,10 @@ Once we opened it, we should create a database that we are naming *insert name o
 ## :white_check_mark: Tests
 
 > [!IMPORTANT]
-> It's important to test the project so we can check if it works correctly and to do that use this command in the terminal:
+> It's important to test the project so we can check if it works correctly and to do that use this command in the **VSC** terminal:
 
 ```php
- $ ./vendor/bin/phpuit tests
+ $ php artisan test
  ```
 (screenshot of the tests)
 
