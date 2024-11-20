@@ -5,8 +5,8 @@
 >To learn how to install and also to know how we did this project, it's very important that you read every part of this readme. Thank you for your patience and have a good read.
 ***
 
-## Description
-
+## Project description
+To keep track of our day-to-day life at an emotional level, we are going to create a diary in Laravel where we can insert what we are feeling every day.
 ***
 
 ## Requirements we need to achieve in this project
