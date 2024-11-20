@@ -16,11 +16,6 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
-        ]);
-
         Journal::factory()->create([
             'entry' => "Today is my Birthday!",
             'emotion' => "img/emotions/happiness.jpg"
