@@ -1,6 +1,10 @@
 body{
     padding: 0px;
     margin: 0px;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #73D5FF;
 }
 
 header{
@@ -13,4 +17,29 @@ header{
     align-content: center;
     margin: 0 auto;
     padding: 10px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.journal{
+    background-color:#21bbfdc1;
+    padding: 10px;
+
+}
+
+.table{
+    background-color: #ffffff;
+}
+
+th{
+    padding: 10px;
+    background-color:#929292c1;
+}
+
+td{
+    padding: 5px;
+    padding-right: 30px;
 }
