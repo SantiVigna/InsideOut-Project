@@ -7,6 +7,8 @@
 
 ## :bulb: Project description
 To keep track of our day-to-day life at an emotional level, we are going to create a diary in Laravel where we can insert what we are feeling every day.
+
+Using Laravel and other languages we were able to create a diary with the inside out characters to help you on communicating your feelings.
 ***
 
 ## Requirements we need to achieve in this project:
