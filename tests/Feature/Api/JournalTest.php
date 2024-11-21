@@ -25,13 +25,13 @@ class JournalTest extends TestCase
     }
 
     public function test_CheckIfCanDeleteEntryInJournalWithApi(){
-        $journal = Journal::factory(2)->create();
+        $journal = Journal::factory(1)->create();
 
         $response = $this->delete(route('apidestroy', 1));
-        $this->assertDatabaseCount('journals', 2);
+        $this->assertDatabaseCount('journals', 1);
 
         $response = $this->get(route('apihome'));
-        $response->assertJsonCount(2);
+        $response->assertJsonCount(1);
     }
 
     public function test_CheckIfCanCreateNewEntryInJournalWithJsonFile(){
