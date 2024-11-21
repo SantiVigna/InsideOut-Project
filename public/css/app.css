@@ -1,10 +1,17 @@
 body{
     padding: 0px;
     margin: 0px;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    background-color: #fffdf7;
+    height: 100%;
 }
 
 header{
     display: flex;
+    justify-content: center;
     background-color: #73D5FF;
 }
 
@@ -14,3 +21,47 @@ header{
     margin: 0 auto;
     padding: 10px;
 }
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.table{
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+th{
+    padding: 10px;
+    background-color:#929292c1;
+    border: 1px #474747c1 solid;
+}
+
+td {
+    padding-right: 20px;
+    padding-left: 20px;
+    min-height: 500px;
+    border: 1px #929292c1 solid;
+    max-width: 200px;
+    background-color: white;
+}
+
+table img{
+  max-width: 60px;
+}
+
+footer{
+    background-color: #73D5FF;
+    color: black;
+    text-align: center;
+    background-color: #73D5FF;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px 0;
+}
+
