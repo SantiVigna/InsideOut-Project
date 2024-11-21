@@ -28,16 +28,15 @@ class JournalController extends Controller
    /*  public function store(Request $request)
     {
     }
- */
+    
     /**
      * Display the specified resource.
      */
-    /* public function show(string $id)
+    public function show(string $id)
     {
-        
         $journal = Journal::find($id);
         return view('show', compact('journal'));
-    } */
+    }
 
     /**
      * Show the form for editing the specified resource.
@@ -61,5 +60,6 @@ class JournalController extends Controller
     /* public function destroy(string $id)
     {
         //
-    } */
+  } */
+
 }
