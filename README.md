@@ -33,6 +33,13 @@ Take a look at how our project turned out.
 (screenshot here)
 ***
 
+## Project Diagrams (BBDD)
+
+![Screenshot 2024-11-21 at 15-31-48 InsideOutApp DrawSQL](https://github.com/user-attachments/assets/cadf42ea-6ec1-441a-8630-2a1aee43fffc)
+
+The diagram we did for our database.
+***
+
 ## :scroll: Installation
 
 > [!IMPORTANT]
