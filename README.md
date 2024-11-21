@@ -1,5 +1,5 @@
 
-# INSIDE OUT LARAVEL 
+# INSIDE OUT LARAVEL PROJECT
 
 >[!IMPORTANT]
 >To learn how to install and also to know how we did this project, it's very important that you read every part of this readme. Thank you for your patience and have a good read.
@@ -20,7 +20,6 @@ Using Laravel and other languages we were able to create a diary with the inside
 - We must be able to **insert**,**modify** and **delete** an entry through **Endpoints**.
 
 - The **date** and *time* of the entry creation should be **automatically added**.
-
 ***
 
 ## :eye_speech_bubble: Project overview
@@ -96,7 +95,6 @@ This is what you should see after doing the tests.
 
 >[!NOTE]
 >Please understand that our team is learning, not everything will look or be perfect. Thank you for the attention.
-***
 
 - Diego Santamaria: https://github.com/DinGo21
 - Talena Barbosa: https://github.com/talenaa
@@ -114,6 +112,7 @@ This is what you should see after doing the tests.
 <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='mysql' src='https://img.shields.io/badge/mysql-100000?style=for-the-badge&logo=mysql&logoColor=white&labelColor=1C662F&color=1C662F'/></a>
 <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='laravel' src='https://img.shields.io/badge/laravel-100000?style=for-the-badge&logo=laravel&logoColor=FFFFFF&labelColor=660A0A&color=660A0A'/></a>
 <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='postman' src='https://img.shields.io/badge/postman-100000?style=for-the-badge&logo=postman&logoColor=white&labelColor=FF8800&color=FF8800'/></a>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='json' src='https://img.shields.io/badge/json-100000?style=for-the-badge&logo=json&logoColor=FFFFFF&labelColor=A79F9F&color=A79F9F'/></a>
 ***
 
 ## Thanks for reading!
