@@ -75,6 +75,10 @@ Once we opened it, we should create a database that we are naming *insert name o
 >Please make sure that you have Composer and XAMPP correctly installed for the database to work.
 > If you can't install xampp, search for another local server that supports **PHP** and **MYSQL**.
 
+
+## Project documentation
+
+
 ## :white_check_mark: Tests
 
 > [!IMPORTANT]
@@ -111,12 +115,9 @@ Once we opened it, we should create a database that we are naming *insert name o
 <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='postman' src='https://img.shields.io/badge/postman-100000?style=for-the-badge&logo=postman&logoColor=white&labelColor=FF8800&color=FF8800'/></a>
 ***
 
-## Project documentation
-
 ## Thanks for reading!
 
 Thanks for reading this readme!
 
 Have a good day! :3
 ***
-
