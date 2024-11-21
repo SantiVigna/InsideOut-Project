@@ -73,6 +73,11 @@ Open the **XAMPP** control panel and follow these instructions:
 
 ## Project documentation
 
+<p align="center">Our endpoints</p> 
+
+![image (1)](https://github.com/user-attachments/assets/f52dd9df-3a0a-498e-8dbe-c78c6ae08fba)
+
+***
 
 ## :white_check_mark: Tests
 
