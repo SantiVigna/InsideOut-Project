@@ -4,11 +4,13 @@ body{
     font-family: "Itim", cursive;
     font-weight: 400;
     font-style: normal;
+    font-size: large;
     background-color: #73D5FF;
 }
 
 header{
     display: flex;
+    justify-content: center;
     background-color: #73D5FF;
 }
 
@@ -24,12 +26,6 @@ main{
     justify-content: center;
 }
 
-.journal{
-    background-color:#21bbfdc1;
-    padding: 10px;
-
-}
-
 .table{
     background-color: #ffffff;
 }
@@ -40,6 +36,13 @@ th{
 }
 
 td{
-    padding: 5px;
-    padding-right: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 1px #929292c1 solid;
+    min-height: 500px;
+    max-width: 200px;
+}
+
+table img{
+  max-width: 60px;
 }
