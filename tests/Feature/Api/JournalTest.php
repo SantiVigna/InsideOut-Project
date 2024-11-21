@@ -17,9 +17,20 @@ class JournalTest extends TestCase
 
     public function test_CheckIfReceiveAllEntryOfJournalInJsonFile(){
         $journal = Journal::factory(2)->create();
+
         $response = $this->get(route('apihome'));
 
         $response->assertStatus(200)
-                 ->AssertJsonCount(2);
+                ->assertJsonCount(2);
+    }
+
+    public function test_CheckIfCanDeleteEntryInJournalWithApi(){
+        $journal = Journal::factory(2)->create();
+
+        $response = $this->delete(route('apidestroy', 1));
+        $this->assertDatabaseCount('journals', 2);
+
+        $response = $this->get(route('apihome'));
+        $response->assertJsonCount(2);
     }
 }
