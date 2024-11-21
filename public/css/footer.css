@@ -1,0 +1,20 @@
+footer{
+    background-color: #73D5FF;
+    color: black;
+    padding: 20 px 0;
+}
+
+.footerContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footerText{
+    flex-grow: 1;
+    text-align: center;
+    font-size: 15 px;
+    padding-right: 170px;
+}
