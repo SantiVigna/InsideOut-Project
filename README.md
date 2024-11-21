@@ -6,7 +6,7 @@
 ***
 
 ## :bulb: Project description
-To keep track of our day-to-day life at an emotional level, we are going to create a diary in Laravel where we can insert what we are feeling every day.
+To keep track of our day-to-day life at an emotional level, we are going to create a diary in **Laravel** using *Inside Out* characters where we can insert what we are feeling every day.
 ***
 
 ## Requirements we need to achieve in this project:
@@ -23,14 +23,10 @@ To keep track of our day-to-day life at an emotional level, we are going to crea
 ## :eye_speech_bubble: Project overview
 
 Take a look at how our project turned out.
-***
 
-<p align="center"></p>
-(screenshot here)
 ***
+![image](https://github.com/user-attachments/assets/f58e2b33-a9db-4126-ad73-99cff7e0ef9c)
 
-<p align="center"></p>
-(screenshot here)
 ***
 
 ## Project Diagrams (BBDD)
