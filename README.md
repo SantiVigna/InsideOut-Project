@@ -87,8 +87,9 @@ Once we opened it, we should create a database that we are naming *insert name o
 ```php
  $ php artisan test
  ```
-(screenshot of the tests)
+![Screenshot 2024-11-21 142640](https://github.com/user-attachments/assets/d539785d-cc12-4e20-8eaf-a79a9996ac60)
 
+This is what you should see after doing the tests.
 ***
 
 ## Our team
