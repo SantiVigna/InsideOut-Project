@@ -11,8 +11,8 @@ use Illuminate\Foundation\Testing\WithFaker;
 class JournalTest extends TestCase
 {
     /**
-     * A basic feature test example.
-     */
+    * A basic feature test example.
+    */
     use RefreshDatabase;
 
     public function test_CheckIfReceiveAllEntryOfJournalInJsonFile(){
@@ -43,6 +43,31 @@ class JournalTest extends TestCase
         $response = $this->get(route('apihome'));
         $response->assertStatus(200)
                 ->assertJsonCount(1);
+
+    }
+
+    public function test_CheckIfCanUpdateEntryInJournalWithJsonFile(){
+        $response = $this->post(route('apistore'), [
+            'entry' => 'chocolate cake',
+            'emotion' => 'happiness'
+        ]);
+
+        $data = ['entry' => 'chocolate cake'];
+        $response = $this ->get(route('apihome'));
+        $response->assertStatus(200)
+                ->assertJsonCount(1)
+                ->assertJsonFragment($data);
+
+        $response = $this->put('/api/journals/5', [
+            'entry' => 'carrot cake',
+            'emotion' => 'disgust'
+        ]);
+
+        $data = ['entry' => 'carrot cake'];
+        $response = $this ->get(route('apihome'));
+        $response->assertStatus(200)
+                ->assertJsonCount(1)
+                ->assertJsonFragment($data);
 
     }
 }
