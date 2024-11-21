@@ -12,7 +12,7 @@
 </head>
 <body>
     <div id="app">
-        <x-header />  
+        <x-header />
 
         <main>
         @yield('content')

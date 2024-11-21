@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class JournalController extends Controller
 {
-    
+
     public function index()
     {
         $journals = Journal::all();
@@ -27,15 +27,16 @@ class JournalController extends Controller
      */
     public function store(Request $request)
     {
-        //
     }
-
+    
     /**
      * Display the specified resource.
      */
     public function show(string $id)
     {
         //
+        $journal = Journal::find($id);
+        return view('show', compact('journal'));
     }
 
     /**

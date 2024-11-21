@@ -18,11 +18,15 @@ class DatabaseSeeder extends Seeder
 
         Journal::factory()->create([
             'entry' => "Today is my Birthday!",
-            'emotion' => "img/emotions/happiness.jpg"
+            'emotion' => "https://res.cloudinary.com/dg28513f0/image/upload/v1732176015/j5xvr134hwrpau4t2ewn.png"
         ]);
         Journal::factory()->create([
             'entry' => "I feel really bored these days...",
-            'emotion' => "img/emotions/boredom.jpg"
+            'emotion' => "https://res.cloudinary.com/dg28513f0/image/upload/v1732176002/mnvrafczk6iyi2cvjpaj.png"
+        ]);
+        Journal::factory()->create([
+            'entry' => "I don't know why but I'm very angry >:(",
+            'emotion' => "https://res.cloudinary.com/dg28513f0/image/upload/v1732176002/cgnesrxbhgusyo0dk1cz.png"
         ]);
     }
 }
