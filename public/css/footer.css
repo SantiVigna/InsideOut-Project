@@ -11,3 +11,10 @@ footer{
     width: 90%;
     margin: 0 auto;
 }
+
+.footerText{
+    flex-grow: 1;
+    text-align: center;
+    font-size: 15 px;
+    padding-right: 170px;
+}
