@@ -33,4 +33,16 @@ class JournalTest extends TestCase
         $response = $this->get(route('apihome'));
         $response->assertJsonCount(2);
     }
+
+    public function test_CheckIfCanCreateNewEntryInJournalWithJsonFile(){
+        $response = $this->post(route('apistore'), [
+            'entry' => 'chocolate cake',
+            'emotion' => 'happiness'
+        ]);
+
+        $response = $this->get(route('apihome'));
+        $response->assertStatus(200)
+                ->assertJsonCount(1);
+
+    }
 }
