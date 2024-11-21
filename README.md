@@ -52,6 +52,7 @@ https://github.com/SantiVigna/InsideOut-Project.git
  ```
 ![composer install](https://github.com/user-attachments/assets/bff20171-10ab-4bc3-8bc8-efcf91a8228f)
 
+This is what you should see after doing the command.
 ***
 
 ### Second step
