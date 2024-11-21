@@ -31,4 +31,11 @@ class JournalTest extends TestCase
         $response->assertStatus(200)
                 ->assertViewIs('home');
     }
+
+    public function test_CheckIfCanGetAllContentAtShow(){
+        $response = $this->get(route('show'));
+
+        $response->assertStatus(200);
+
+    }
 }

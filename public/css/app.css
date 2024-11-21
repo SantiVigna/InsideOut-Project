@@ -1,0 +1,16 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    background-color: #73D5FF;
+}
+
+.headerBanner{
+    width: fit-content;
+    align-content: center;
+    margin: 0 auto;
+    padding: 10px;
+}
