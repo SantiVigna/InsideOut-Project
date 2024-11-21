@@ -68,10 +68,6 @@ Open the **XAMPP** control panel and follow these instructions:
 
 ![385719024-c058f39b-c325-4635-bad7-a209cd9e4541](https://github.com/user-attachments/assets/fb2e4e17-42a4-4122-aea8-e4a4ee393929)
 
-Once we opened it, we should create a database that we are naming *insert name of the database*
-
-(screenshot guide for creating the database)
-
 ## Project documentation
 
 
