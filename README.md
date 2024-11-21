@@ -50,8 +50,8 @@ https://github.com/SantiVigna/InsideOut-Project.git
 ```php
  $ composer install
  ```
+![composer install](https://github.com/user-attachments/assets/bff20171-10ab-4bc3-8bc8-efcf91a8228f)
 
-(here insert a screenshoot proving the command works)
 ***
 
 ### Second step
